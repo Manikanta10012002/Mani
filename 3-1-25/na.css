@@ -1,0 +1,67 @@
+.image{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+}
+.image1{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+}
+.image2{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+}
+.image3{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+}
+.image4{
+    width: 350px;
+    height: 350px;
+    position: relative;
+ 
+    display: inline-block;
+}
+.image5{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    
+    display: inline-block;
+}
+.image6{
+    width: 350px;
+    height: 350px;
+    position: relative;
+   
+    display: inline-block;
+}
+.image7{
+    width: 350px;
+    height: 350px;
+    position: relative;
+   
+    margin: 0px;
+
+    display: inline-block;
+    
+}
+p{
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    margin: 0px;
+    bottom: 10px;
+}

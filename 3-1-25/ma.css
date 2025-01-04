@@ -1,0 +1,25 @@
+.mani{
+    
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+}
+body{
+    margin: 0px;
+}
+header{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+
+
+}
+.sai{
+    width: 100%;
+    
+}
