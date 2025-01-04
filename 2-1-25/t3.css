@@ -1,0 +1,26 @@
+.tooltip-container{
+    width: 500px;
+    height: 500px;
+    
+    position: relative;
+    padding: 20px;
+  
+}
+.button{
+    cursor: pointer;
+    top: 0px;
+}
+.tooltip{
+    width: 250px;
+    height: 250px;
+    visibility: hidden;
+    position: absolute;
+    padding: 20px;
+
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.tooltip-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}

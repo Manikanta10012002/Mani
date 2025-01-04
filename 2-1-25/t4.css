@@ -1,0 +1,18 @@
+.avatar-container{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    border: 3px solid red;
+}
+.badge{
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: brown;
+    background-color: whitesmoke;
+}
+img{
+    width: 700px;
+    height: 700px;
+}
