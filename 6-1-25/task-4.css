@@ -1,0 +1,33 @@
+
+.ma{
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 50px;
+}
+.item{
+    display: flex;
+    position: absolute;
+    color: white;
+    
+    left:45%;
+    top: 40%;
+    font-size: 32px;
+}
+
+.item2{
+    display: flex;
+    position: absolute;
+    left: 46%;
+    top:45%;
+   color: white;
+   font-size: 32px;
+}
+.p{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}

@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+  
+
+}
+body{
+    margin: 0;
+}
+header{
+    display: inline-block;
+
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-right: 2px solid red;
+    
+
+   
+
+}
+.main{
+    
+width: 100%;
+
+
+
+}
+.text{
+    
+
+    text-align: center;
+    color: orange;
+    bottom: 5%;
+    left: 0%;
+    position: absolute;
+    font-size: 50px;
+   
+}
+
