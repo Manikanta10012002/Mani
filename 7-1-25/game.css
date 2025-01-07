@@ -1,0 +1,50 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    background-color: blueviolet;
+    border: 2px solid ;
+    position: absolute;
+
+}
+.main{
+    width: 50%;
+    height: 400px;
+    background-color: orange;
+    color: white;
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    top: 20%;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    
+
+}
+.container2{
+    width: 100%;
+    height: 700px;
+    background-color: blue;
+    border: 2px solid ;
+    position: absolute;
+    
+}
+.item{
+    width: 50%;
+    height: 400px;
+    background-color: lightcoral;
+    color: white;
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    top: 20%;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
