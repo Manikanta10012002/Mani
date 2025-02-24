@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join now</title>
+    <link rel="stylesheet" href="./join.css">
+    <link rel="icon" href="https://deltacollege.edu/sites/default/files/tbh-logo.png">
+</head>
+<body>
+    <div class="join-container">
+        <div class="join-container1">
+           <!---- <img src="https://deltacollege.edu/sites/default/files/tbh-logo.png" alt=""> -->
+            <div class="join-sub-container"><p>Already have an account?</p><a href="./login.html">sign-in</a></div>
+        
+            <div class="form-container">
+                <h1>Create Account</h1>
+                <div class="role-switch">
+                  <input type="radio" id="student" name="role" checked>
+                  <label for="student" class="role-label">Student</label>
+            
+                  <input type="radio" id="parent" name="role" >
+                  <label for="parent" class="role-label">Parent</label>
+                  <div class="parent-select-container">
+                    <label for="relationship">Interested in programs for*</label>
+                    <select id="relationship">
+                      <option value="">Interested in programs for</option>
+                      <option value="father">my self</option>
+                      <option value="mother">My child</option>
+                      
+                    </select>
+                  </div>
+                </div>
+            
+                <form>
+                  <label for="firstName">First Name*</label>
+                  <input type="text" id="firstName" placeholder="Enter your first name" required>
+            
+                  <label for="lastName">Last Name*</label>
+                  <input type="text" id="lastName" placeholder="Enter your last name" required>
+            
+                  <label for="email">E-mail*</label>
+                  <input type="email" id="email" placeholder="Enter your email" required>
+            
+                  <label for="phone">Phone*</label>
+                  <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            
+                  <!-- Parent-specific select dropdown -->
+                  
+            
+                  <div class="checkbox-container">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I accept the <a href="#">terms of service</a> and <a href="#">privacy policy</a></label>
+                  </div>
+            
+                  <button type="submit" class="submit-btn">Get Started</button>
+                </form>
+            
+                <!-- <div class="footer-link">
+                  <a href="#">Already have an account? Sign-in</a>
+                </div> -->
+              </div>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
